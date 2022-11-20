@@ -12,7 +12,7 @@ function populateBoard(size) {
   for (let i = 0; i < amount; i++) {
     let square = document.createElement("div");
     square.addEventListener("mouseover", colorSquare);
-    square.style.backgroundColor = "white";
+    square.style.backgroundColor = "burgundy";
     board.insertAdjacentElement("beforeend", square);
   }
 }
@@ -31,7 +31,7 @@ function changeSize(input) {
 function colorSquare() {
   if (click) {
     if (color === "random") {
-      this.style.backgroundColor = `hsl(${Math.random() * 360}, 100%, 50%)`;
+      this.style.backgroundColor = `hsl(${Math.random() * 360}, 100%, 75%)`;
     } else {
       this.style.backgroundColor = color;
     }
