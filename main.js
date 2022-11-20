@@ -1,4 +1,4 @@
-let color = "black";
+let color = "green";
 let click = true;
 
 function populateBoard(size) {
