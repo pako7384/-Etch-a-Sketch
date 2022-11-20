@@ -82,11 +82,10 @@ video {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: unset;
-  vertical-align:text-bottom;
+  font: inherit;
+  vertical-align: baseline;
 }
-
-
+/* HTML5 display-role reset for older browsers */
 article,
 aside,
 details,
@@ -98,7 +97,7 @@ hgroup,
 menu,
 nav,
 section {
-  display: flex;
+  display: block;
 }
 body {
   line-height: 1;
